@@ -15,18 +15,17 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
+          <ul className="nav nav-tabs">
+            <li className="nav-item">
+              <Link className="nav-link" to="/">Home</Link>
             </li>
-            <li>
-              <Link to="/about">About</Link>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">About</Link>
             </li>
-            <li>
-              <Link to="/dashboard">Dashboard</Link>
+            <li className="nav-item">
+              <Link className="nav-link" to="/dashboard">Dashboard</Link>
             </li>
           </ul>
-          <hr />
           <Switch>
             <Route exact path="/">
               <Home />

@@ -1,59 +1,22 @@
 import React from "react";
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
-import {Container} from "@material-ui/core";
 import "./styles.css";
 const About = () => {
-  const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-  },
-  media: {
-    height: 140,
-  },
-});
   return(
-    <div className="user-container">
-      <Card className={makeStyles.root}>
-        <CardActionArea>
-          <CardMedia
-            className={makeStyles.media}
-            image="/images/IMG_8142.jpg"
-            title="Nicholas Santiago"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Nicholas Santiago
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Nick is a ten year veteran and a Sofware Developer.
-              </Typography>
-            </CardContent>
-        </CardActionArea>
-      </Card>
-      <Card className={makeStyles.root}>
-        <CardActionArea>
-          <CardMedia
-            className={makeStyles.media}
-            image="/images/IMG_8142.jpg"
-            title="Nicholas Santiago"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Kofa Freeman
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Kofa is a ten year veteran and a Business Professional.
-              </Typography>
-            </CardContent>
-        </CardActionArea>
-      </Card>
+    <div className="container">
+      <div className="card" >
+        <img className="card-img-top" src="IMG_8147.jpg" alt="Card image cap"/>
+        <div className="card-body">
+          <h2>Nicholas Santiago</h2>
+          <p className="card-text">Nick is a ten year veteran and currently a Software Developer.</p>
+        </div>
+      </div>
+      <div className="card" >
+        <img className="card-img-top" src="IMG_8151.jpg" alt="Card image cap"/>
+        <div className="card-body">
+          <h2>Kofa Freeman</h2>
+          <p className="card-text">Kofa is a ten year veteran and a Business Professional.</p>
+        </div>
+      </div>
     </div>
   );
 }
