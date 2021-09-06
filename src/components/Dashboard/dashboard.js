@@ -1,7 +1,9 @@
 import React from "react";
 const Dashboard = () => {
   return(
-    <h1>Hello Dashboard</h1>
+    <>
+      <img src="maintenance-2422172_1920.jpg" className="img-fluid" alt="Responsive image"/>
+    </>
   );
 }
 export default Dashboard;
