@@ -8,6 +8,7 @@ import {
 import Home from "./components/Home/home.js";
 import About from "./components/About/about.js";
 import Dashboard from "./components/Dashboard/dashboard.js";
+import Footer from "./components/Footer/footer.js";
 import './App.css';
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           </Switch>
         </div>
       </Router>
+      <Footer />
     </div>
   );
 }
