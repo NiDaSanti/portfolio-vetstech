@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {Carousel} from "react-carousel-minimal";
 const Home = () => {
   const data = [
@@ -9,8 +9,20 @@ const Home = () => {
       image: "veteran-1807121.jpg",
     },
     {
-      image: "veterans-day-4653833_1920.jpg"
-    }
+      image: "veterans-day-4653833_1920.jpg",
+    },
+    {
+      image: "computer-4796017_1920.jpg",
+    },
+    {
+      image: "dual-screen-1745705.png",
+    },
+    {
+      image: "programmer-1653351.png",
+    },
+    {
+      image: "web-3967926_1920.jpg",
+    },
   ];
   const customStyles = {
     textAlign: "center",
