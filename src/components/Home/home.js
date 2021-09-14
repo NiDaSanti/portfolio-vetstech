@@ -35,6 +35,22 @@ const Home = () => {
     marginLeft: "10px",
     marginRight: "10px",
   };
+  const makeStrong = {
+    fontWeight: "bold",
+  };
+  const missionStatementText = "Mission Statement: Outlines the" +
+                               "organization’s targeted, operational," +
+                               "and strategic intent, through which actions" +
+                               "for today can be given context, urgency and meaning.";
+
+  const companyMissionStatement = "VetsTech LLC is Veteran owned and operated" +
+                                  "technology company created to build, educate," +
+                                  "help and empowered veterans through innovation and technology";
+
+  const visionMissionStatement = "Vision Statement: Provides a picture of an" +
+                                 "organization’s preferred future in order to" +
+                                 "give its people an enduring, deep and inspiring purpose";
+
   return(
     <>
       <Carousel
@@ -56,7 +72,9 @@ const Home = () => {
       />
       <div className="card" style={cardStyle}>
         <div className="card-body">
-          Non etiam tempor id arcu magna ante eget. Nec per posuere cubilia cras porttitor condimentum orci suscipit. Leo maecenas in tristique, himenaeos elementum placerat. Taciti rutrum nostra, eget cursus velit ultricies. Quam molestie tellus himenaeos cubilia congue vivamus ultricies. Interdum praesent ut penatibus fames eros ad consectetur sed Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius; dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare. Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit sodales taciti duis praesent id. Consequat urna vitae morbi nunc congue.
+          <p>{missionStatementText}</p>
+          <p>{companyMissionStatement}</p>
+          <p>{visionMissionStatement}</p>
         </div>
       </div>
     </>

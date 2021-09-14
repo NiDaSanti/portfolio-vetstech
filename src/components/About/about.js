@@ -4,6 +4,9 @@ const About = () => {
   const increaseWidthOfCard = {
     width: "50rem",
   };
+  const customImageStyles = {
+    height: "15rem",
+  };
   return(
     <div className="container">
       <div className="bio-container">
@@ -25,7 +28,7 @@ const About = () => {
         </div>
       <div className="bio-container">
         <div className="card" >
-          <img className="card-img-top" src="IMG_8151.jpg" alt="Kofa"/>
+          <img className="card-img-top" style={customImageStyles} src="IMG_5155.jpg" alt="Kofa"/>
             <div className="card-body">
               <h2 className="text-danger">Kofa Freeman</h2>
               <p className="card-text">Kofa is a ten year veteran and a Business Professional.</p>
