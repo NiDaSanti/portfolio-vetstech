@@ -42,16 +42,7 @@ const Home = () => {
                                "organization’s targeted, operational," +
                                "and strategic intent, through which actions" +
                                "for today can be given context, urgency and meaning.";
-
-  const companyMissionStatement = "VetsTech LLC is Veteran owned and operated" +
-                                  "technology company created to build, educate," +
-                                  "help and empowered veterans through innovation and technology";
-
-  const visionMissionStatement = "Vision Statement: Provides a picture of an" +
-                                 "organization’s preferred future in order to" +
-                                 "give its people an enduring, deep and inspiring purpose";
-
-  return(
+    return(
     <>
       <Carousel
         data={data}
@@ -72,9 +63,7 @@ const Home = () => {
       />
       <div className="card" style={cardStyle}>
         <div className="card-body">
-          <p>{missionStatementText}</p>
-          <p>{companyMissionStatement}</p>
-          <p>{visionMissionStatement}</p>
+          <p style={makeStrong}>{missionStatementText}</p>
         </div>
       </div>
     </>
