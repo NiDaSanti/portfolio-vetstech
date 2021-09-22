@@ -2,8 +2,8 @@ import React from "react";
 const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
-  const visionStatement = "VetsTech LLC is Veteran owned and operated" +
-                                  "technology company created to build, educate," +
+  const visionStatement = "VetsTech LLC is Veteran owned and operated " +
+                                  "technology company created to build, educate, " +
                                   "help and empowered veterans through innovation and technology";
 
   const footerStyles = {
@@ -14,8 +14,7 @@ const Footer = () => {
   };
   return(
     <div style={footerStyles}>
-      <p>{visionStatement}</p>
-      <p>Copyright &copy; {year}, VetsTech LLC.</p>
+      <h4>Copyright &copy; {year}, VetsTech LLC.</h4>
     </div>
   );
 };
