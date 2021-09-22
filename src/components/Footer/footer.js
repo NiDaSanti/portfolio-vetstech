@@ -8,8 +8,6 @@ const Footer = () => {
 
   const footerStyles = {
     marginTop: "2rem",
-    backgroundColor: "#81b1ce",
-    color: "#fff",
     height: "auto",
   };
   return(
