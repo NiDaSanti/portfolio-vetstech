@@ -12,7 +12,7 @@ const Home = () => {
   const contain = {
     position: "absolute",
     top: "35%",
-    left: "33.3%",
+    left: "40%",
     tranformed: "translate(-50%, -50%)",
     color: "#fff",
     width: "50rem",
@@ -23,6 +23,7 @@ const Home = () => {
   };
   const text = {
     fontSize: "2.5rem",
+    textShadow: "0 1px 0 rgba(255, 255, 255, 0.4)",
   }
   // const styleStatement = {
   //   width: "30rem",
