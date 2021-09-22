@@ -38,10 +38,10 @@ const Home = () => {
   const makeStrong = {
     fontWeight: "bold",
   };
-  const missionStatementText = "Mission Statement: Outlines the" +
-                               "organization’s targeted, operational," +
-                               "and strategic intent, through which actions" +
-                               "for today can be given context, urgency and meaning.";
+  const missionStatementText = "To build, educate,help and " +
+                               "empowered veterans through " +
+                               "innovation and technology.";
+
     return(
     <>
       <Carousel
@@ -63,7 +63,7 @@ const Home = () => {
       />
       <div className="card" style={cardStyle}>
         <div className="card-body">
-          <p style={makeStrong}>{missionStatementText}</p>
+          <h3 style={makeStrong}>{missionStatementText}</h3>
         </div>
       </div>
     </>
