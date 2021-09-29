@@ -1,11 +1,14 @@
 .card {
   width: 19rem;
+  box-shadow: -1px 1px 18px 4px #dadada;
 }
 .container {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 2em;
   justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .card-img-top {
   width: auto;
