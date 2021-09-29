@@ -17,14 +17,14 @@ function App() {
       <Router>
         <div>
           <ul className="nav nav-tabs">
-            <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+            <li className="nav-item custom">
+              <Link className="nav-link custom" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
+              <Link className="nav-link custom" to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/dashboard">Dashboard</Link>
+              <Link className="nav-link custom" to="/dashboard">Dashboard</Link>
             </li>
           </ul>
           <Switch>
