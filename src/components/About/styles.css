@@ -1,15 +1,16 @@
 .card {
-  width: 18rem;
+  width: 19rem;
+  box-shadow: -1px 1px 18px 4px #dadada;
 }
 .container {
-  display:flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2em;
   justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
-.bio-container {
-  display:flex;
-  flex-direction:row;
-  gap:2rem;
+.card-img-top {
+  width: auto;
+  height: 300px;
 }
